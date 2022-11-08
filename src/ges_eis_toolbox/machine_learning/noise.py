@@ -1,6 +1,5 @@
 from copy import deepcopy
 import numpy as np
-from numpy.random import normal
 from scipy.ndimage import gaussian_filter1d
 
 
@@ -64,7 +63,7 @@ def add_cartesian_normal_noise(
         else:
             sigma = amplitude
             
-        noise = normal(loc=0, scale=sigma, size=x.shape)
+        noise = np.random.normal(loc=0, scale=sigma, size=x.shape)
         x += noise
         output.append(x)
     

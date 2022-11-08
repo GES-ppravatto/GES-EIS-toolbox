@@ -21,3 +21,10 @@
 .. automodule:: ges_eis_toolbox.machine_learning.noise
    :members:
 ```
+
+## The `image_tools` submodule
+
+```{eval-rst}
+.. automodule:: ges_eis_toolbox.machine_learning.image_tools
+   :members:
+```
