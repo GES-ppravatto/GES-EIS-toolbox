@@ -6,3 +6,4 @@ keras
 pyyaml
 h5py
 impedance
+job-dispatcher>=0.1.10
